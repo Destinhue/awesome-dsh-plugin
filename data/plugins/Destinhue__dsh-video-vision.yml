@@ -2,7 +2,7 @@ url: https://github.com/Destinhue/dsh-video-vision
 name: Destinhue/dsh-video-vision
 category: vision
 icon: https://raw.githubusercontent.com/Destinhue/dsh-video-vision/main/assets/icon-180.png
-tarball: https://github.com/Destinhue/dsh-video-vision/releases/download/v1.0.1/dsh-video-vision-1.0.1.tgz
+tarball: https://github.com/Destinhue/dsh-video-vision/releases/download/v1.1.0/dsh-video-vision-1.1.0.tgz
 description:
   en: 'Video storyboard for a vision model: video_probe returns metadata and a reading plan without decoding frames, video_storyboard turns a window of the file into one contact sheet plus a text index binding every cell to its timecode, cut count and frame time, and video_zoom re-renders 1-9 cells from a short window at a larger scale. Cuts, dissolves and one-frame flashes come from a single ffmpeg pass; cell numbers are burned in as bitmaps; subtitle tracks are quoted on the cell their cue falls in. Needs ffmpeg, uses ffprobe when present, and has no other runtime dependencies.'
   zh: '给视觉模型的视频分镜：video_probe 不解码画面即返回元数据与阅读方案，video_storyboard 把任意时间窗变成一个分镜图，外加一份把每格绑定到时间码、切点数与取帧时刻的文本索引，video_zoom 把短窗口内的 1-9 格按更大尺寸重画。切点、叠化与单帧闪光由一次 ffmpeg 扫描得出；格子编号以位图烧在图上；字幕轨按字幕所属的格子引用。需要 ffmpeg，有 ffprobe 时自动使用，无其他运行时依赖。'
